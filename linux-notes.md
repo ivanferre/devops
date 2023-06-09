@@ -19,3 +19,5 @@ Link worked:
 
 Link channel:
 <https://us02web.zoom.us/j/136553440?pwd=N1RRd2RPSGFhV1JxYnFRYnFxZU5wUT09>
+
+<https://web.whatsapp.com/send/?phone=34609832171&text&type=phone_number&app_absent=0>
