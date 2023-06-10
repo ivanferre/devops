@@ -1,6 +1,6 @@
-# Notes on Linux
+# Notes from.  the DevOps Focus Track at PowerCoders Spring 2023
 
-Reading material: <https://daphnia.com/powercoders-linux-intro.html>
+## Connecting
 
 Connect to remote host:
 
@@ -20,4 +20,13 @@ Link worked:
 Link channel:
 <https://us02web.zoom.us/j/136553440?pwd=N1RRd2RPSGFhV1JxYnFRYnFxZU5wUT09>
 
-<https://web.whatsapp.com/send/?phone=34609832171&text&type=phone_number&app_absent=0>
+## Introduction to Linux
+
+Reading material: <https://daphnia.com/powercoders-linux-intro.html>
+
+## Linux Networking
+
+Reading material:
+
+- <https://daphnia.com/powercoders-nag-intro.html>
+- <https://developer.ibm.com/tutorials/l-lpic1-109-1/>
