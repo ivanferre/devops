@@ -8,10 +8,8 @@ PORT = 65432        # port to listen on (non-privileged ports are > 1023)
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
-    s.listen
-    print(f"Accepting...")
+    s.listen()
     conn, addr = s.accept()
-    print(f"Accepted!")
     with conn:
         # pass  # Use the socket object without calling s.close().
         print(f"Connected by {addr}")
