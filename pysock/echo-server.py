@@ -11,7 +11,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.listen()
     conn, addr = s.accept()
     with conn:
-        # pass  # Use the socket object without calling s.close().
         print(f"Connected by {addr}")
         while True:
             data = conn.recv(1024)
