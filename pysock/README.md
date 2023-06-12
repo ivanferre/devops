@@ -24,7 +24,9 @@ For the client, also pass the number of connections to create to the server:
 
 ## TODO
 
-Carry on with the tutorial from *Application Client and Server*
+Carry on with the tutorial from *Application Client and Server*.
+
+If you want to change the socket connection examples, remember to change the address to “::1” and also change AF_INET to AFI_NET6. There are other options you can specify for IPv6 sockets, but this should get you started.
 
 ## References
 
