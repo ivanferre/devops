@@ -2,6 +2,14 @@
 
 This is a project following the [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/).
 
+## Code
+
+`echo-client`: client sends one message to `echo-server` on a unique connection. The server replies with the same content, and connection is closed.
+
+`multiconn` manages a range of simultaneous connections between client and server.
+
+## References
+
 Other information sources include:
 
 - [Python - How to check if a port is in use](https://twin.sh/articles/17/python-how-to-check-if-a-port-is-in-use)
