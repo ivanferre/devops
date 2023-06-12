@@ -2,11 +2,29 @@
 
 This is a project following the [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/).
 
-## Code
+## Applications
+
+### echo-client
 
 `echo-client`: client sends one message to `echo-server` on a unique connection. The server replies with the same content, and connection is closed.
 
+### multiconn
+
 `multiconn` manages a range of simultaneous connections between client and server.
+
+For the server, pass the `host` and `port` numbers:
+
+    $ python multiconn-server.py
+    Usage: multiconn-server.py <host> <port>
+
+For the client, also pass the number of connections to create to the server:
+
+    $ python multiconn-client.py
+    Usage: multiconn-client.py <host> <port> <num_connections>
+
+## TODO
+
+Carry on with the tutorial from *Application Client and Server*
 
 ## References
 
