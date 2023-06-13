@@ -1,6 +1,6 @@
 # Notes from.  the DevOps Focus Track at PowerCoders Spring 2023
 
-## Connecting
+## Connecting to AWS virtual machine
 
 Connect to remote host:
 
@@ -30,3 +30,22 @@ Reading material:
 
 - <https://daphnia.com/powercoders-nag-intro.html>
 - <https://developer.ibm.com/tutorials/l-lpic1-109-1/>
+
+## Install Docker
+
+- <docs.docker.com/desktop/install/linux-install>
+
+<https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers>
+
+- <https://learn.microsoft.com/en-us/training/modules/intro-to-docker-containers/>
+
+- <https://ubuntu.com/blog/kvm-hyphervisor>
+- <https://www.cyberciti.biz/faq/how-to-check-kvm-qemu-kvm-version-in-linux/>
+- <https://ubuntu.com/server/docs/virtualization-qemu>
+
+- <https://docs.docker.com/engine/install/>
+- <https://docs.docker.com/desktop/windows/wsl/#download>
+- <https://docs.docker.com/desktop/install/linux-install/>
+- <https://docs.docker.com/desktop/install/windows-install/>
+
+<https://www.redhat.com/sysadmin/introduction-tmux-linux>
