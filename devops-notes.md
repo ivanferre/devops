@@ -33,6 +33,8 @@ Reading material:
 
 ## Install Docker
 
+- <https://www.youtube.com/watch?v=pTFZFxd4hOI&amp;ab_channel=ProgrammingwithMosh>
+
 - <docs.docker.com/desktop/install/linux-install>
 
 <https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers>
@@ -49,3 +51,16 @@ Reading material:
 - <https://docs.docker.com/desktop/install/windows-install/>
 
 <https://www.redhat.com/sysadmin/introduction-tmux-linux>
+
+## hub.docker.com
+
+docker login -u ivanferre
+Password is in file ~/.ssh/hub-docker-com.pswd
+
+How to push an image to hub.docker.com:
+
+- <https://www.techrepublic.com/article/how-to-build-a-docker-image-and-upload-it-to-docker-hub/>
+
+The command that actually work is
+
+    docker image push ivanferre/hello:latest
