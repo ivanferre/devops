@@ -64,3 +64,19 @@ How to push an image to hub.docker.com:
 The command that actually work is
 
     docker image push ivanferre/hello:latest
+
+Docker playground to test images:
+
+- <https://labs.play-with-docker.com/>
+
+## TODO
+
+- <https://docker-curriculum.com/>
+- <https://www.redhat.com/sysadmin/introduction-tmux-linux>
+- <https://tmuxcheatsheet.com/>
+- <https://daphnia.com/powercoders-nag-intro.html#_stuff_to_try>
+
+- <https://realpython.com/python-sockets/#echo-client-and-server>
+
+- <https://drive.google.com/drive/u/1/folders/1_lltfXi_Pcf7rzYyJkQKKRPzbeglLaPf>
+- <https://academy.socialbee.org/home/content/all>
