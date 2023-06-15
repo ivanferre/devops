@@ -101,6 +101,7 @@ It didn't work because it assumes it's run from the `flask-app` directory, and t
 
 - <https://www.redhat.com/sysadmin/introduction-tmux-linux>
 - <https://tmuxcheatsheet.com/>
+- <https://dockercheatsheet.com/>
 - <https://daphnia.com/powercoders-nag-intro.html#_stuff_to_try>
 
 - <https://realpython.com/python-sockets/#echo-client-and-server>
@@ -137,3 +138,14 @@ Test in the windows shell:
 
     > wsl docker --version
     Docker version 20.10.2, build 2291f61
+
+### Wrong Permissions
+
+The user to execute `docker` must belong to the `docker` group.
+
+Follow <https://linuxopsys.com/topics/add-user-to-docker-group>
+
+    $ sudo groupadd docker
+    groupadd: group 'docker' already exists.
+    sudo usermod -aG docker $USER
+    exec su -l $USER
