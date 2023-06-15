@@ -87,3 +87,33 @@ Docker playground to test images:
 <https://docker-curriculum.com/>
 <https://github.com/prakhar1989/docker-curriculum>
 <https://docs.docker.com/get-started/>
+
+## Troubleshooting
+
+### Unrecognized docker
+
+    > wsl docker --version
+
+    The command 'docker' could not be found in this WSL 2 distro.
+    We recommend to activate the WSL integration in Docker Desktop settings.
+
+    See <https://docs.docker.com/docker-for-windows/wsl/> for details.
+
+I have found the solution in [StackOverflow](https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found). I followed the advice by **Fabrício Pereira**, who answered on Jan 26, 2021 at 15:15.
+
+Open windows shell (maybe as admin), and run:
+
+    > wsl -t docker-desktop
+    > wsl --shutdown
+    > wsl --unregister docker-desktop
+
+Then go to windows services, stop the Docker Desktop Service, OR to do this running the command in windows shell as admin:
+
+    > Stop-Service -Name "com.docker.service"
+
+And finally, restart the Docker Desktop App.
+
+Test in the windows shell:
+
+    > wsl docker --version
+    Docker version 20.10.2, build 2291f61
