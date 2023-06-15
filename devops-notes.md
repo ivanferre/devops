@@ -69,9 +69,10 @@ Docker playground to test images:
 
 - <https://labs.play-with-docker.com/>
 
+[Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
+
 ## TODO
 
-- <https://docker-curriculum.com/>
 - <https://www.redhat.com/sysadmin/introduction-tmux-linux>
 - <https://tmuxcheatsheet.com/>
 - <https://daphnia.com/powercoders-nag-intro.html#_stuff_to_try>
@@ -80,3 +81,9 @@ Docker playground to test images:
 
 - <https://drive.google.com/drive/u/1/folders/1_lltfXi_Pcf7rzYyJkQKKRPzbeglLaPf>
 - <https://academy.socialbee.org/home/content/all>
+
+## Docker Tutorial
+
+<https://docker-curriculum.com/>
+<https://github.com/prakhar1989/docker-curriculum>
+<https://docs.docker.com/get-started/>
