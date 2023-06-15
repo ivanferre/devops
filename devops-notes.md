@@ -73,6 +73,20 @@ Docker playground to test images:
 
 ## TODO
 
+Complete Docker Tutorial
+
+### Docker Tutorial
+
+<https://docker-curriculum.com/>
+<https://github.com/prakhar1989/docker-curriculum>
+<https://docs.docker.com/get-started/>
+
+We've got until the "The last step in this section is to run the image and see if it actually works (replacing my username with yours)." step.
+
+It didn't work because it assumes it's run from the `flask-app` directory, and therefore `Dockefile` is not valid (see in the subdirectory).
+
+### Further learning
+
 - <https://www.redhat.com/sysadmin/introduction-tmux-linux>
 - <https://tmuxcheatsheet.com/>
 - <https://daphnia.com/powercoders-nag-intro.html#_stuff_to_try>
@@ -81,12 +95,6 @@ Docker playground to test images:
 
 - <https://drive.google.com/drive/u/1/folders/1_lltfXi_Pcf7rzYyJkQKKRPzbeglLaPf>
 - <https://academy.socialbee.org/home/content/all>
-
-## Docker Tutorial
-
-<https://docker-curriculum.com/>
-<https://github.com/prakhar1989/docker-curriculum>
-<https://docs.docker.com/get-started/>
 
 ## Troubleshooting
 
