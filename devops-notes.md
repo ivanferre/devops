@@ -20,6 +20,18 @@ Link worked:
 Link channel:
 <https://us02web.zoom.us/j/136553440?pwd=N1RRd2RPSGFhV1JxYnFRYnFxZU5wUT09>
 
+## Install Docker on Personal AWS EC2 Instance
+
+ssh -i FirstEC2keyPair.pem <ubuntu@ec2-3-120-174-171.eu-central-1.compute.amazonaws.com>
+
+[How to Install Docker on AWS Ubuntu](https://linuxhint.com/install-docker-aws-docker/)
+
+Update and upgrade all the software. Reboot to ensure the kernel is updated.
+
+    sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+If you need to install PGP, here is how to do it: <https://central.sonatype.org/publish/requirements/gpg/>
+
 ## Introduction to Linux
 
 Reading material: <https://daphnia.com/powercoders-linux-intro.html>
