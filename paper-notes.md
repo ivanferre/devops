@@ -2,8 +2,7 @@
 
 Transcript of notes taken on paper.
 
-    docker-compose up
-    docker-compose down -rmi all
+## Definitions
 
 Container: isolated environment for running an application.
 Virtual Machine: an abstraction of a machine (physical hardware).
@@ -17,6 +16,8 @@ This container lays on top of an OS kernel.
 
 To get Docker: docs.docker.com/getdocker
 
+### Dockfile
+
 Dockfile: makes the image from the app.
 
 - Cut-down OS.
@@ -25,6 +26,8 @@ Dockfile: makes the image from the app.
 - Libraries.
 - Environment variables.
 
+### Container
+
 Container: a process with its own file system, provided by the image.
 
     docker build -t hello-docker
@@ -32,13 +35,15 @@ Container: a process with its own file system, provided by the image.
     docker run hello-docker
     docker pull <user>/<image>
 
+### Docker Hub
+
 hub.docker.com  Image repository à la GitHub.
 
     docker pull ubuntu
     docker run ubuntu
     docker run -it ubuntu
 
-Package managers:
+## Package managers
 
 - npm
 - yarn
@@ -46,9 +51,29 @@ Package managers:
 - NuGet
 - apt
 
-Techs to learn:
+<!-- TODO -->
+## Docker Compose
 
-- Ansible
+    docker-compose up
+    docker-compose down -rmi all
+
+- <https://docs.docker.com/desktop/install/linux-install>
+
+    $ kvm-ok
+    $ /usr/bin/qem-system-x86_64 --version
+
+## Testing
+
+Play with Docker: <https://labs.play-with-docker.com>
+
+    docker run my-app sh
+
+This opens a shell in the container, which helps to debut the app.
+
+## Techs to learn
+
+- Ansible: <https://www.redhat.com/en/topics/automation/learning-ansible-tutorial>
 - Jenkins
+- Kubernetes
 - CI/CD
 - Terraform
