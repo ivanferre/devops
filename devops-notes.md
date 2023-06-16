@@ -85,7 +85,7 @@ Docker playground to test images:
 
 ## TODO
 
-Complete Docker Tutorial
+Complete Docker Tutorial (see below).
 
 ### Docker Tutorial
 
@@ -93,9 +93,9 @@ Complete Docker Tutorial
 <https://github.com/prakhar1989/docker-curriculum>
 <https://docs.docker.com/get-started/>
 
-We've got until the "The last step in this section is to run the image and see if it actually works (replacing my username with yours)." step.
+We've got until the "Beanstalk" section. Creating the Elastic Beanstalk Console is far more complex than depicted in the article, and could not complete it correctly. In particular, we did not know what the instance profile is.
 
-It didn't work because it assumes it's run from the `flask-app` directory, and therefore `Dockefile` is not valid (see in the subdirectory).
+The instance profile credentials are exposed on <http://169.254.169.254/latest/meta-data/iam/security-credentials/> . When you curl this URL on an EC2 instance, you will get the name of the instance profile attached to the instance.
 
 ### Further learning
 
