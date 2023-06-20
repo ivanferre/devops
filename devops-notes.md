@@ -97,7 +97,17 @@ We've got until the "Beanstalk" section. Creating the Elastic Beanstalk Console 
 
 The instance profile credentials are exposed on <http://169.254.169.254/latest/meta-data/iam/security-credentials/> . When you curl this URL on an EC2 instance, you will get the name of the instance profile attached to the instance.
 
-### Further learning
+## DevOps Commands
+
+See cheat sheet at <https://dockercheatsheet.com/>
+
+- Build image: `docker build -t my-image .`
+- Push to hub.docker.com: `docker push myrepo/my-image:2.0`
+- Pull from hub.docker.com: `docker image pull example`
+- Run a container: `docker run
+image:tag`
+
+## Further learning
 
 - <https://www.redhat.com/sysadmin/introduction-tmux-linux>
 - <https://tmuxcheatsheet.com/>
