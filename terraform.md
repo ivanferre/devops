@@ -28,6 +28,8 @@ Inspect the current state using `terraform show`.
 
 Terraform has a built-in command called `terraform state` for advanced state management. Use the `list` subcommand to list of the resources in your project's state.
 
+The terraform destroy command terminates resources managed by your Terraform project. This command is the inverse of terraform apply in that it terminates all the resources specified in your Terraform state. It does not destroy resources running elsewhere that are not managed by the current Terraform project.
+
 ## Terraform - AWS
 
 [Get Started - AWS](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
