@@ -1,2 +1,7 @@
 **/*~
 dummy.txt
+learn-terraform-docker-container/.terraform.lock.hcl
+learn-terraform-docker-container/terraform.tfstate
+learn-terraform-docker-container/terraform.tfstate.backup
+learn-terraform-docker-container/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.0.2/linux_amd64/CHANGELOG.md
+learn-terraform-docker-container/.terraform/*
