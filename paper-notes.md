@@ -77,6 +77,7 @@ This opens a shell in the container, which helps to debut the app.
 - Kubernetes
 - CI/CD
 - Terraform
+
 - Conda
 
 Conda takes a lot of space, and you want your container to be as light as possible.
