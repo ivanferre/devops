@@ -30,6 +30,8 @@ Terraform has a built-in command called `terraform state` for advanced state man
 
 The terraform destroy command terminates resources managed by your Terraform project. This command is the inverse of terraform apply in that it terminates all the resources specified in your Terraform state. It does not destroy resources running elsewhere that are not managed by the current Terraform project.
 
+ Use an **input variable** to parameterize your Terraform configuration. Use **output values** to organize data to be easily queried and displayed to the Terraform user. Query the outputs with the `terraform output` command.
+
 ## Terraform - AWS
 
 [Get Started - AWS](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
