@@ -29,6 +29,12 @@ This file is not reachable outside the container.
 
 ## Using Docker Swarm Secrets
 
+Docker also includes a more extensive secrets solution, accessed via the docker secret command group, but it only works with services deployed to a [Swarm cluster](https://docs.docker.com/engine/swarm/).
+
+Swarm secrets are managed by your cluster and will be [securely replicated](https://docs.docker.com/engine/swarm/secrets/#how-docker-manages-secrets) to each node within it.
+
+Secrets are encrypted during transit and storage. They’re held in memory, so they’re not persisted on individual nodes or container filesystems. Additionally, nodes only receive the secrets required by the containers they’re running, further minimizing the risk of exposure.
+
 ## TODO
 
 <https://spacelift.io/blog/container-security>
