@@ -1,5 +1,12 @@
 # Notes from.  the DevOps Focus Track at PowerCoders Spring 2023
 
+| Tool        | Use  |
+|------------ |----- |
+| Docker      | Implement Containers. |
+| Terraform   | To deploy infraestracture: create and destroy. |
+| Ansible     | Day-to-Day administration. |
+| Kubernetes  | Container orchestration. Manage data. |
+
 ## Connecting to AWS virtual machine
 
 Connect to remote host:
