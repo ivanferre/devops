@@ -96,6 +96,10 @@ Complete Docker Tutorial (see below).
 
 <https://roadmap.sh/devops>
 
+Conda: takes a lot of space, and you want your container to be as light as possible.
+
+You don't really need a package manager.
+
 ### Docker Tutorial
 
 <https://docker-curriculum.com/>
