@@ -90,6 +90,17 @@ Docker playground to test images:
 
 [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
 
+### What is the difference between the ec2 and the elastic beanstalk? What are the possible use cases for both?
+
+**Mustafa Cihan**:
+
+EC2 (Elastic Compute Cloud) and Elastic Beanstalk are both services provided by Amazon Web Services (AWS), but they serve different purposes and have different use cases.
+In summary, EC2 is a more general-purpose service that gives you full control over virtual servers, allowing you to customize the infrastructure to your specific needs. On the other hand, Elastic Beanstalk is a higher-level service that abstracts away infrastructure management, providing a simpler way to deploy and manage web applications. Elastic Beanstalk is often used for rapid application development, while EC2 is more flexible and suitable for a wide range of use cases.
+
+**Kevin Kiruri**:
+
+Let me add that when using an EC2, you are responsible for all the resources on the server such as memory, storage, updates etc. Elastic beanstalk uses a serverless model (it is a managed service), where AWS manages the underlying resources and you will only manage the app that you install. The underlying resources will be managed by AWS.
+
 ## TODO
 
 Complete Docker Tutorial (see below).
@@ -111,6 +122,16 @@ We've got until the "Beanstalk" section. Creating the Elastic Beanstalk Console 
 The instance profile credentials are exposed on <http://169.254.169.254/latest/meta-data/iam/security-credentials/> . When you curl this URL on an EC2 instance, you will get the name of the instance profile attached to the instance.
 
 [Docker Compose Tutorial](https://www.youtube.com/watch?v=HG6yIjZapSA)
+
+### Continuous Deployment Pipeline
+
+AWS Code Deploy.
+Popular alternative products include: Jenkins and GitLab.
+
+Here is the AWS Code Pipeline userguide:
+<https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-s3.html>
+Here is a project guide you can follow:
+<https://www.linkedin.com/pulse/set-up-continous-deployment-pipeline-less-than-15-min-mohit-sharma/>
 
 ## DevOps Commands
 
