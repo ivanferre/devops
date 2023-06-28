@@ -2,6 +2,12 @@
 
 ## Contents
 
+1. [Contents](#contents)
+1. [Summary](#summary)
+1. [Connecting to AWS virtual machine](#connecting-to-aws-virtual-machine)
+1. [Docker](#docker)
+    1.1 [Install Docker on Personal AWS EC2 Instance](#install-docker-on-personal-aws-ec2-instance)
+
 ## Summary
 
 This document covers the following tools:
@@ -27,13 +33,9 @@ Copy file from remote host to local computer:
 
     scp -i ~/.ssh/powercoders ivan@3.76.193.102:/path/to/folder /path/to/local/destination
 
-Link worked:
-<https://us06web.zoom.us/j/83452349295?pwd=ckJMb0E2SW5ncForenVSd1dRaTdKdz09>
+## Docker
 
-Link channel:
-<https://us02web.zoom.us/j/136553440?pwd=N1RRd2RPSGFhV1JxYnFRYnFxZU5wUT09>
-
-## Install Docker on Personal AWS EC2 Instance
+### Install Docker on Personal AWS EC2 Instance
 
 ssh -i FirstEC2keyPair.pem <ubuntu@ec2-3-120-174-171.eu-central-1.compute.amazonaws.com>
 
